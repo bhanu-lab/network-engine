@@ -3,7 +3,7 @@ package network.essentials.multithreading;
 public class ServerThread extends Thread{
 
 
-    private ServerThread(String threadName){
+    ServerThread(String threadName){
         this.setName(threadName);
     }
 
